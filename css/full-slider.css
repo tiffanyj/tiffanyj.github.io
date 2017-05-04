@@ -1,0 +1,94 @@
+/*
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+/*.container{
+    color: white;
+    font-family: "Futura";
+}*/
+
+.carousel-inner .fill {
+    filter: brightness(70%);
+}
+
+.navbar-inverse{
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+h1 { 
+    color: black;
+    font-family: "Futura";
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.col-lg-12 p{
+    color: black;
+    font-family: "Futura";
+    font-size: 13px;
+    font-weight: 300px;
+}
+a, li a{
+    color: white;
+    font-family: "Futura";
+    font-size: 13px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner h2{
+    font-family: "Futura";
+    font-weight: 500;
+    text-align: center;
+}
+
+/*.carousel-caption{
+    left: 10%;
+}*/
+
+.carousel-inner p{
+    background-color: red;
+    font-family: "Futura";
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
